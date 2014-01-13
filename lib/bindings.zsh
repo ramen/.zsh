@@ -19,3 +19,7 @@ bindkey "\e[7~" beginning-of-line
 bindkey "\e[8~" end-of-line
 bindkey "\e[F" end-of-line
 bindkey "\e[H" beginning-of-line
+
+# Select a word at a time, like Bash I guess
+autoload -U select-word-style
+select-word-style bash
