@@ -4,6 +4,7 @@ export EDITOR='emacs -nw'
 
 setopt autocd
 setopt globdots
+setopt nobeep
 
 autoload -U url-quote-magic
 zle -N self-insert url-quote-magic
