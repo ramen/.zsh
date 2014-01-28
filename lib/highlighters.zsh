@@ -1,6 +1,6 @@
 # highlighters.zsh - ZSH syntax highlighting configuration
 
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern)
 
 ZSH_HIGHLIGHT_STYLES[alias]='none'
 ZSH_HIGHLIGHT_STYLES[assign]='none'
