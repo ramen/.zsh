@@ -13,3 +13,7 @@ alias sudo='sudo HOME="$HOME"'
 bblame() {
   git blame -l $1 | git name-rev --stdin --name-only
 }
+
+title() {
+  echo -ne "\033]0;"$*"\007"
+}
